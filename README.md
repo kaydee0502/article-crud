@@ -1,24 +1,35 @@
-# README
+# Basic CRUD app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
++ Deployed using
+    - Docker
+    - Heroku (Container Registry)
 
-Things you may want to cover:
++ Database
+    - MongoDB
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## Env variables
+> Create .env in parent directory
 
-* Database creation
+| KEY | VALUE |
+|---|---|
+| MONGO_URI_PRODUCTION | Mongo DB URI for production |
+| MONGO_URI_DEVELOPMENT | Mongo DB URI for development |
+| RAILS_SERVE_STATIC_FILES | To serve local static files (true/false) |
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Run Locally
+```
+git clone https://github.com/kaydee0502/deploy_app
 
-* Deployment instructions
+```
+> Make sure you have docker installed!
 
-* ...
+```
+docker-compose up -d
+```
+
+`Your app should be running on localhost:3000`
+
