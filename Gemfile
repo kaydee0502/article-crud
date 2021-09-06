@@ -52,3 +52,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'mongoid', git: 'https://github.com/mongodb/mongoid.git'
 gem 'bson_ext'
+
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
