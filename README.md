@@ -12,7 +12,7 @@
 ## Env variables
 > Create .env in parent directory
 
-| KEY | VALUE |
+| KEY | DESCRIPTION |
 |---|---|
 | MONGO_URI_PRODUCTION | Mongo DB URI for production |
 | MONGO_URI_DEVELOPMENT | Mongo DB URI for development |
