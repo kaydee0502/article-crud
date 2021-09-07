@@ -22,7 +22,8 @@
 
 ## Run Locally
 ```
-git clone https://github.com/kaydee0502/deploy_app
+git clone https://github.com/kaydee0502/article-crud
+cd article-crud
 
 ```
 > Make sure you have docker installed!
