@@ -81,6 +81,7 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+  config.secret_key_base = "5f53ae1fad9c7e337a6b643898333e6f829b778d64bef9bb4db15ac4d009702e9bd313fd4271343f0e3a37b38b52d8fbce0e33a1d1853087f7ab01a11053ef1e"
 
   # Use a different logger for distributed setups.
   # require "syslog/logger"
