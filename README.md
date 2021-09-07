@@ -31,6 +31,11 @@ cd article-crud
 ```
 docker-compose up -d
 ```
+Or if you have rails
+```
+bundle install
+rails s
+```
 
 `Your app should be running on localhost:3000`
 
