@@ -192,3 +192,22 @@ production:
       uri: <%= ENV["MONGO_URI_PRODUCTION"] %>
       options:
         server_selection_timeout: 5    
+
+
+# development:
+#   clients:
+#     default:
+#       database: dev_app_development
+#       hosts:
+#         - localhost:27017
+#       options:
+#         server_selection_timeout: 5
+
+# production:
+#   clients:
+#     default:
+#       database: dev_app_production
+#       hosts:
+#         - mongodb:27017
+#       options:
+#         server_selection_timeout: 5
