@@ -179,35 +179,35 @@ test:
         max_pool_size: 1
 
 
-development:
-  clients:
-    default:
-      uri: <%= ENV["MONGO_URI_DEVELOPMENT"] %>
-      options:
-        server_selection_timeout: 5
-
-production:
-  clients:
-    default:
-      uri: <%= ENV["MONGO_URI_PRODUCTION"] %>
-      options:
-        server_selection_timeout: 5    
-
-
 # development:
 #   clients:
 #     default:
-#       database: dev_app_development
-#       hosts:
-#         - localhost:27017
+#       uri: <%= ENV["MONGO_URI_DEVELOPMENT"] %>
 #       options:
 #         server_selection_timeout: 5
 
 # production:
 #   clients:
 #     default:
-#       database: dev_app_production
-#       hosts:
-#         - mongodb:27017
+#       uri: <%= ENV["MONGO_URI_PRODUCTION"] %>
 #       options:
-#         server_selection_timeout: 5
+#         server_selection_timeout: 5    
+
+
+development:
+  clients:
+    default:
+      database: dev_app_development
+      hosts:
+        - mongodb:27017
+      options:
+        server_selection_timeout: 5
+
+production:
+  clients:
+    default:
+      database: dev_app_production
+      hosts:
+        - mongodb:27017
+      options:
+        server_selection_timeout: 5
